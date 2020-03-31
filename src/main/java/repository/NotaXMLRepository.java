@@ -23,7 +23,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String>, Nota> {
+public class NotaXMLRepository extends AbstractXMLRepository<Pair<Integer, String>, Nota> {
 
     public NotaXMLRepository(Validator<Nota> validator, String XMLfilename) {
         super(validator, XMLfilename);
@@ -32,7 +32,7 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String
 
     protected Element getElementFromEntity(Nota nota, Document XMLdocument) {
         Element element = XMLdocument.createElement("nota");
-        element.setAttribute("IDStudent", nota.getID().getObject1());
+        element.setAttribute("IDStudent", nota.getID().getObject1().toString());
         element.setAttribute("IDTema", nota.getID().getObject2());
 
         element.appendChild(createElement(XMLdocument, "Nota", String.valueOf(nota.getNota())));
@@ -43,7 +43,7 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String
     }
 
     protected Nota getEntityFromNode(Element node) {
-        String IDStudent = node.getAttributeNode("IDStudent").getValue();
+        Integer IDStudent = Integer.parseInt(node.getAttributeNode("IDStudent").getValue());
         String IDTema= node.getAttributeNode("IDTema").getValue();
         double nota = Double.parseDouble(node.getElementsByTagName("Nota").item(0).getTextContent());
         int saptamanaPredare = Integer.parseInt(node.getElementsByTagName("SaptamanaPredare").item(0).getTextContent());
@@ -53,7 +53,7 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String
     }
 
     public void createFile(Nota notaObj) {
-        String idStudent = notaObj.getID().getObject1();
+        Integer idStudent = notaObj.getID().getObject1();
         StudentValidator sval = new StudentValidator();
         TemaValidator tval = new TemaValidator();
         StudentFileRepository srepo = new StudentFileRepository(sval, "studenti.txt");

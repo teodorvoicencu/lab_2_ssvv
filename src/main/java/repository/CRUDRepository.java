@@ -37,4 +37,6 @@ public interface CRUDRepository<ID, E> {
      * @throws ValidationException if the entity is not valid.
      **/
     E update(E entity);
+
+    void deleteAll();
 }

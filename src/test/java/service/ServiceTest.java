@@ -18,35 +18,68 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ServiceTest {
 
-    private Service service;
+    private Validator<Student> studentValidator = new StudentValidator();
+    private Validator<Tema> temaValidator = new TemaValidator();
+    private Validator<Nota> notaValidator = new NotaValidator();
+
+    private StudentXMLRepository studentsRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+    private TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme.xml");
+    private NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
+
+    private Service service= new Service(studentsRepository, fileRepository2, fileRepository3);
 
     @BeforeEach
     void initService(){
-        Validator<Student> studentValidator = new StudentValidator();
-        Validator<Tema> temaValidator = new TemaValidator();
-        Validator<Nota> notaValidator = new NotaValidator();
-
-        StudentXMLRepository fileRepository1 = new StudentXMLRepository(studentValidator, "studenti.xml");
-        TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme.xml");
-        NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
-
-        this.service = new Service(fileRepository1, fileRepository2, fileRepository3);
+        this.studentsRepository.deleteAll();
     }
 
 
     @ParameterizedTest
     @ValueSource(ints = {1, 2, Integer.MAX_VALUE, Integer.MAX_VALUE-1})
-    void saveStudentOk(Integer id) {
-        String name = "Nume";
-        int group = 937;
-        assertEquals(0, service.saveStudent(id,name,group));
+    void saveStudentIdOk(Integer id) {
+        String name = "Ion Ionescu";
+        Integer group = 937;
+        assertEquals(0, this.service.saveStudent(id,name,group));
     }
 
     @ParameterizedTest
     @ValueSource(ints = {0, -1})
-    void saveStudentFail(Integer id) {
-        String name = "Nume";
-        int group = 937;
-        assertEquals(1, service.saveStudent(id,name,group));
+    void saveStudentIdFail(Integer id) {
+        String name = "Ion Ionescu";
+        Integer group = 937;
+        assertEquals(1, this.service.saveStudent(id,name,group));
     }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"Ion Ionescu", "Andreea Vescan","Voicencu Teodor Octavian"})
+    void saveStudentNameOk(String name) {
+        Integer id = 1;
+        Integer group = 937;
+        assertEquals(0, this.service.saveStudent(id,name,group));
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"", "  ", "Ion123", "asd", "Ion A", "Ion    " })
+    void saveStudentNameFail(String name) {
+        Integer id = 1;
+        Integer group = 937;
+        assertEquals(1, this.service.saveStudent(id,name,group));
+    }
+
+    @ParameterizedTest
+    @ValueSource(ints = {110,938,234, 111,937})
+    void saveStudentGroupOk(Integer group) {
+        Integer id = 1;
+        String name = "Ion Ionescu";
+        assertEquals(0, this.service.saveStudent(id,name,group));
+    }
+
+    @ParameterizedTest
+    @ValueSource(ints = {109, 939})
+    void saveStudentGroupFail(Integer group) {
+        Integer id = 1;
+        String name = "Ion Ionescu";
+        assertEquals(1, this.service.saveStudent(id,name,group));
+    }
+
 }

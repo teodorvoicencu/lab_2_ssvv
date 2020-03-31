@@ -3,22 +3,24 @@ package domain;
 
 import java.util.Objects;
 
-public class Student implements HasID<String> {
-    private String idStudent;
-    private String nume;
-    private int grupa;
+public class Student implements HasID<Integer> {
+    private Integer idStudent;
 
-    public Student(String idStudent, String nume, int grupa) {
+    private String nume;
+
+    private Integer grupa;
+
+    public Student(Integer idStudent, String nume, Integer grupa) {
         this.idStudent = idStudent;
         this.nume = nume;
         this.grupa = grupa;
     }
 
     @Override
-    public String getID() { return idStudent; }
+    public Integer getID() { return idStudent; }
 
     @Override
-    public void setID(String idStudent) { this.idStudent = idStudent; }
+    public void setID(Integer idStudent) { this.idStudent = idStudent; }
 
     public String getNume() {
         return nume;
@@ -32,7 +34,7 @@ public class Student implements HasID<String> {
         return grupa;
     }
 
-    public void setGrupa(int grupa) {
+    public void setGrupa(Integer grupa) {
         this.grupa = grupa;
     }
 
