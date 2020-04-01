@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +52,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.13.1/lib/node_modules/prettier" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.30958548" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
@@ -123,7 +119,7 @@
       <workItem from="1585690088228" duration="1538000" />
       <workItem from="1585691813148" duration="66000" />
       <workItem from="1585691890017" duration="412000" />
-      <workItem from="1585745238104" duration="1044000" />
+      <workItem from="1585745238104" duration="1307000" />
     </task>
     <servers />
   </component>
@@ -143,10 +139,10 @@
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1317" y="574" key="#com.intellij.ide.util.MemberChooser/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585688743525" />
-    <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585690187704">
+    <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585748671463">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585690187704" />
+    <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748671463" />
     <state x="510" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/112.-1057.1920.1010/0.23.1792.1097@0.23.1792.1097" timestamp="1584540925121" />
     <state width="2966" height="773" key="GridCell.Tab.0.bottom" timestamp="1585692302251">
       <screen x="0" y="23" width="3008" height="1669" />
@@ -188,10 +184,10 @@
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="434" y="210" key="Maven.ArtifactSearchDialog/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543384061" />
-    <state x="606" y="428" key="SettingsEditor" timestamp="1585748431158">
+    <state x="606" y="428" width="1818" height="808" key="SettingsEditor" timestamp="1585748707328">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="606" y="428" key="SettingsEditor/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748431158" />
+    <state x="606" y="428" width="1818" height="808" key="SettingsEditor/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748707328" />
     <state x="397" y="187" key="SettingsEditor/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543190344" />
     <state x="668" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584543369145">
       <screen x="0" y="23" width="1792" height="1050" />
