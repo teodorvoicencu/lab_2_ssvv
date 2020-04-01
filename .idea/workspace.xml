@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="" />
+    <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="339" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceTest">
+  <component name="RunManager" selected="JUnit.ServiceTest.saveTemaInsideIf">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Laborator01" />
@@ -90,12 +97,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceTest.saveTemaInsideIf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="METHOD_NAME" value="saveTemaInsideIf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.saveTemaOutsideIf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.ServiceTest" />
+      <option name="METHOD_NAME" value="saveTemaOutsideIf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ServiceTest" />
+      <item itemvalue="JUnit.ServiceTest.saveTemaOutsideIf" />
+      <item itemvalue="JUnit.ServiceTest.saveTemaInsideIf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceTest.saveTemaInsideIf" />
+        <item itemvalue="JUnit.ServiceTest.saveTemaOutsideIf" />
         <item itemvalue="JUnit.ServiceTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -119,7 +162,7 @@
       <workItem from="1585690088228" duration="1538000" />
       <workItem from="1585691813148" duration="66000" />
       <workItem from="1585691890017" duration="412000" />
-      <workItem from="1585745238104" duration="1307000" />
+      <workItem from="1585745238104" duration="2744000" />
     </task>
     <servers />
   </component>
@@ -144,42 +187,42 @@
     </state>
     <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748671463" />
     <state x="510" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/112.-1057.1920.1010/0.23.1792.1097@0.23.1792.1097" timestamp="1584540925121" />
-    <state width="2966" height="773" key="GridCell.Tab.0.bottom" timestamp="1585692302251">
+    <state width="2966" height="368" key="GridCell.Tab.0.bottom" timestamp="1585750231224">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302251" />
+    <state width="2966" height="368" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231224" />
     <state width="1750" height="459" key="GridCell.Tab.0.bottom/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879687" />
-    <state width="2966" height="773" key="GridCell.Tab.0.center" timestamp="1585692302250">
+    <state width="2966" height="368" key="GridCell.Tab.0.center" timestamp="1585750231223">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302250" />
+    <state width="2966" height="368" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231223" />
     <state width="1750" height="459" key="GridCell.Tab.0.center/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="2966" height="773" key="GridCell.Tab.0.left" timestamp="1585692302249">
+    <state width="2966" height="368" key="GridCell.Tab.0.left" timestamp="1585750231223">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302249" />
+    <state width="2966" height="368" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231223" />
     <state width="1750" height="459" key="GridCell.Tab.0.left/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879685" />
-    <state width="2966" height="773" key="GridCell.Tab.0.right" timestamp="1585692302250">
+    <state width="2966" height="368" key="GridCell.Tab.0.right" timestamp="1585750231224">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302250" />
+    <state width="2966" height="368" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231224" />
     <state width="1750" height="459" key="GridCell.Tab.0.right/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="2966" height="602" key="GridCell.Tab.1.bottom" timestamp="1585690081795">
+    <state width="2966" height="602" key="GridCell.Tab.1.bottom" timestamp="1585749634819">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585690081795" />
-    <state width="2966" height="602" key="GridCell.Tab.1.center" timestamp="1585690081794">
+    <state width="2966" height="602" key="GridCell.Tab.1.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634819" />
+    <state width="2966" height="602" key="GridCell.Tab.1.center" timestamp="1585749634818">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585690081794" />
-    <state width="2966" height="602" key="GridCell.Tab.1.left" timestamp="1585690081794">
+    <state width="2966" height="602" key="GridCell.Tab.1.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634818" />
+    <state width="2966" height="602" key="GridCell.Tab.1.left" timestamp="1585749634818">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585690081794" />
-    <state width="2966" height="602" key="GridCell.Tab.1.right" timestamp="1585690081794">
+    <state width="2966" height="602" key="GridCell.Tab.1.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634818" />
+    <state width="2966" height="602" key="GridCell.Tab.1.right" timestamp="1585749634819">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585690081794" />
+    <state width="2966" height="602" key="GridCell.Tab.1.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634819" />
     <state x="434" y="210" key="Maven.ArtifactSearchDialog" timestamp="1584543384061">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
@@ -202,5 +245,13 @@
     </state>
     <state x="942" y="393" key="search.everywhere.popup/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585688736234" />
     <state x="561" y="256" key="search.everywhere.popup/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543504843" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaInsideIf.ic" NAME="ServiceTest.saveTemaInsideIf Coverage Results" MODIFIED="1585749634771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaOutsideIf.ic" NAME="ServiceTest.saveTemaOutsideIf Coverage Results" MODIFIED="1585749552885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
   </component>
 </project>

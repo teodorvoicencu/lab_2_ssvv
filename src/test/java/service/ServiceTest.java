@@ -4,6 +4,7 @@ import domain.Nota;
 import domain.Student;
 import domain.Tema;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import repository.NotaXMLRepository;
@@ -23,14 +24,16 @@ class ServiceTest {
     private Validator<Nota> notaValidator = new NotaValidator();
 
     private StudentXMLRepository studentsRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
-    private TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "teme.xml");
+    private TemaXMLRepository temaRepository = new TemaXMLRepository(temaValidator, "teme.xml");
     private NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
 
-    private Service service= new Service(studentsRepository, fileRepository2, fileRepository3);
+    private Service service= new Service(studentsRepository, temaRepository, fileRepository3);
 
     @BeforeEach
     void initService(){
         this.studentsRepository.deleteAll();
+        this.temaRepository.deleteAll();
+        temaRepository.save(new Tema("lab1","tema lab 1", 14, 1 ));
     }
 
 
@@ -80,6 +83,16 @@ class ServiceTest {
         Integer id = 1;
         String name = "Ion Ionescu";
         assertEquals(1, this.service.saveStudent(id,name,group));
+    }
+
+    @Test
+    void saveTemaOutsideIf(){
+        assertEquals(0, this.service.saveTema("lab2", "tema lab 2", 12, 2));
+    }
+
+    @Test
+    void saveTemaInsideIf(){
+        assertEquals(1, this.service.saveTema("lab3", "tema lab 2", 1, 12));
     }
 
 }
