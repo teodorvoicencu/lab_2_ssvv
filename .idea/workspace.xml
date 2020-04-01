@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -121,7 +122,8 @@
       <workItem from="1585678097143" duration="6756000" />
       <workItem from="1585690088228" duration="1538000" />
       <workItem from="1585691813148" duration="66000" />
-      <workItem from="1585691890017" duration="321000" />
+      <workItem from="1585691890017" duration="412000" />
+      <workItem from="1585745238104" duration="1044000" />
     </task>
     <servers />
   </component>
@@ -146,25 +148,25 @@
     </state>
     <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585690187704" />
     <state x="510" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/112.-1057.1920.1010/0.23.1792.1097@0.23.1792.1097" timestamp="1584540925121" />
-    <state width="2966" height="773" key="GridCell.Tab.0.bottom" timestamp="1585691948104">
+    <state width="2966" height="773" key="GridCell.Tab.0.bottom" timestamp="1585692302251">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585691948104" />
+    <state width="2966" height="773" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302251" />
     <state width="1750" height="459" key="GridCell.Tab.0.bottom/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879687" />
-    <state width="2966" height="773" key="GridCell.Tab.0.center" timestamp="1585691948103">
+    <state width="2966" height="773" key="GridCell.Tab.0.center" timestamp="1585692302250">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585691948103" />
+    <state width="2966" height="773" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302250" />
     <state width="1750" height="459" key="GridCell.Tab.0.center/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="2966" height="773" key="GridCell.Tab.0.left" timestamp="1585691948102">
+    <state width="2966" height="773" key="GridCell.Tab.0.left" timestamp="1585692302249">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585691948102" />
+    <state width="2966" height="773" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302249" />
     <state width="1750" height="459" key="GridCell.Tab.0.left/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879685" />
-    <state width="2966" height="773" key="GridCell.Tab.0.right" timestamp="1585691948103">
+    <state width="2966" height="773" key="GridCell.Tab.0.right" timestamp="1585692302250">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state width="2966" height="773" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585691948103" />
+    <state width="2966" height="773" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585692302250" />
     <state width="1750" height="459" key="GridCell.Tab.0.right/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
     <state width="2966" height="602" key="GridCell.Tab.1.bottom" timestamp="1585690081795">
       <screen x="0" y="23" width="3008" height="1669" />
@@ -186,10 +188,10 @@
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="434" y="210" key="Maven.ArtifactSearchDialog/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543384061" />
-    <state x="666" y="284" key="SettingsEditor" timestamp="1585691923028">
+    <state x="606" y="428" key="SettingsEditor" timestamp="1585748431158">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="666" y="284" key="SettingsEditor/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585691923028" />
+    <state x="606" y="428" key="SettingsEditor/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748431158" />
     <state x="397" y="187" key="SettingsEditor/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543190344" />
     <state x="668" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584543369145">
       <screen x="0" y="23" width="1792" height="1050" />
