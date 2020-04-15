@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LabAssiAsseProjectV01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LabAssiAsseProjectV01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +19,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="339" />
+    <option name="myElementSize" value="399" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550873260216" />
@@ -66,13 +75,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="validation" />
       <recent name="service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceTest.saveTemaInsideIf">
+  <component name="RunManager" selected="JUnit.ServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Laborator01" />
@@ -129,17 +139,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemaValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="validation" />
+      <option name="MAIN_CLASS_NAME" value="validation.TemaValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ServiceTest" />
       <item itemvalue="JUnit.ServiceTest.saveTemaOutsideIf" />
       <item itemvalue="JUnit.ServiceTest.saveTemaInsideIf" />
+      <item itemvalue="JUnit.TemaValidatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceTest" />
+        <item itemvalue="JUnit.TemaValidatorTest" />
         <item itemvalue="JUnit.ServiceTest.saveTemaInsideIf" />
         <item itemvalue="JUnit.ServiceTest.saveTemaOutsideIf" />
-        <item itemvalue="JUnit.ServiceTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -162,7 +189,8 @@
       <workItem from="1585690088228" duration="1538000" />
       <workItem from="1585691813148" duration="66000" />
       <workItem from="1585691890017" duration="412000" />
-      <workItem from="1585745238104" duration="2744000" />
+      <workItem from="1585745238104" duration="5036000" />
+      <workItem from="1586955567150" duration="3088000" />
     </task>
     <servers />
   </component>
@@ -187,54 +215,64 @@
     </state>
     <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748671463" />
     <state x="510" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/112.-1057.1920.1010/0.23.1792.1097@0.23.1792.1097" timestamp="1584540925121" />
-    <state width="2966" height="368" key="GridCell.Tab.0.bottom" timestamp="1585750231224">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="3798" height="305" key="GridCell.Tab.0.bottom" timestamp="1586958448525">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="368" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231224" />
+    <state width="2966" height="368" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803582" />
     <state width="1750" height="459" key="GridCell.Tab.0.bottom/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879687" />
-    <state width="2966" height="368" key="GridCell.Tab.0.center" timestamp="1585750231223">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="3798" height="305" key="GridCell.Tab.0.bottom/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448525" />
+    <state width="3798" height="305" key="GridCell.Tab.0.center" timestamp="1586958448525">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="368" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231223" />
+    <state width="2966" height="368" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803581" />
     <state width="1750" height="459" key="GridCell.Tab.0.center/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="2966" height="368" key="GridCell.Tab.0.left" timestamp="1585750231223">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="3798" height="305" key="GridCell.Tab.0.center/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448525" />
+    <state width="3798" height="305" key="GridCell.Tab.0.left" timestamp="1586958448524">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="368" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231223" />
+    <state width="2966" height="368" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803581" />
     <state width="1750" height="459" key="GridCell.Tab.0.left/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879685" />
-    <state width="2966" height="368" key="GridCell.Tab.0.right" timestamp="1585750231224">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="3798" height="305" key="GridCell.Tab.0.left/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448524" />
+    <state width="3798" height="305" key="GridCell.Tab.0.right" timestamp="1586958448525">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="368" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585750231224" />
+    <state width="2966" height="368" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803581" />
     <state width="1750" height="459" key="GridCell.Tab.0.right/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="2966" height="602" key="GridCell.Tab.1.bottom" timestamp="1585749634819">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="3798" height="305" key="GridCell.Tab.0.right/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448525" />
+    <state width="3798" height="770" key="GridCell.Tab.1.bottom" timestamp="1586957043951">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634819" />
-    <state width="2966" height="602" key="GridCell.Tab.1.center" timestamp="1585749634818">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="2966" height="602" key="GridCell.Tab.1.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803578" />
+    <state width="3798" height="770" key="GridCell.Tab.1.bottom/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043951" />
+    <state width="3798" height="770" key="GridCell.Tab.1.center" timestamp="1586957043951">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634818" />
-    <state width="2966" height="602" key="GridCell.Tab.1.left" timestamp="1585749634818">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="2966" height="602" key="GridCell.Tab.1.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803578" />
+    <state width="3798" height="770" key="GridCell.Tab.1.center/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043951" />
+    <state width="3798" height="770" key="GridCell.Tab.1.left" timestamp="1586957043950">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634818" />
-    <state width="2966" height="602" key="GridCell.Tab.1.right" timestamp="1585749634819">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="2966" height="602" key="GridCell.Tab.1.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803577" />
+    <state width="3798" height="770" key="GridCell.Tab.1.left/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043950" />
+    <state width="3798" height="770" key="GridCell.Tab.1.right" timestamp="1586957043951">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
-    <state width="2966" height="602" key="GridCell.Tab.1.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585749634819" />
+    <state width="2966" height="602" key="GridCell.Tab.1.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803578" />
+    <state width="3798" height="770" key="GridCell.Tab.1.right/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043951" />
     <state x="434" y="210" key="Maven.ArtifactSearchDialog" timestamp="1584543384061">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="434" y="210" key="Maven.ArtifactSearchDialog/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543384061" />
-    <state x="606" y="428" width="1818" height="808" key="SettingsEditor" timestamp="1585748707328">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state x="-177" y="-1630" width="1818" height="808" key="SettingsEditor" timestamp="1586958163191">
+      <screen x="-951" y="-2137" width="3840" height="2090" />
     </state>
     <state x="606" y="428" width="1818" height="808" key="SettingsEditor/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748707328" />
     <state x="397" y="187" key="SettingsEditor/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543190344" />
-    <state x="668" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584543369145">
-      <screen x="0" y="23" width="1792" height="1050" />
+    <state x="-177" y="-1630" key="SettingsEditor/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958163191" />
+    <state x="1121" y="435" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585751067394">
+      <screen x="0" y="23" width="3008" height="1669" />
     </state>
+    <state x="1121" y="435" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585751067394" />
     <state x="668" y="282" key="com.intellij.testIntegration.createTest.CreateTestDialog/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543369145" />
     <state x="554" y="305" width="683" height="486" key="find.popup" timestamp="1584518750544">
       <screen x="0" y="23" width="1792" height="1050" />
@@ -246,9 +284,26 @@
     <state x="942" y="393" key="search.everywhere.popup/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585688736234" />
     <state x="561" y="256" key="search.everywhere.popup/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543504843" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/service/Service.java</url>
+          <line>46</line>
+          <properties class="service.Service" method="saveNota">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaInsideIf.ic" NAME="ServiceTest.saveTemaInsideIf Coverage Results" MODIFIED="1585749634771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaInsideIf.ic" NAME="ServiceTest.saveTemaInsideIf Coverage Results" MODIFIED="1585750935488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$TemaValidatorTest.ic" NAME="TemaValidatorTest Coverage Results" MODIFIED="1585752035817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>validation.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaOutsideIf.ic" NAME="ServiceTest.saveTemaOutsideIf Coverage Results" MODIFIED="1585749552885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>service.*</FILTER>

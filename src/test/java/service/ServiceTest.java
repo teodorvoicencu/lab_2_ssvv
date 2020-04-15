@@ -25,17 +25,17 @@ class ServiceTest {
 
     private StudentXMLRepository studentsRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
     private TemaXMLRepository temaRepository = new TemaXMLRepository(temaValidator, "teme.xml");
-    private NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
+    private NotaXMLRepository notaRepository = new NotaXMLRepository(notaValidator, "note.xml");
 
-    private Service service= new Service(studentsRepository, temaRepository, fileRepository3);
+    private Service service= new Service(studentsRepository, temaRepository, notaRepository);
 
     @BeforeEach
     void initService(){
         this.studentsRepository.deleteAll();
         this.temaRepository.deleteAll();
+        studentsRepository.save(new Student(30, "Teodor", 937));
         temaRepository.save(new Tema("lab1","tema lab 1", 14, 1 ));
     }
-
 
     @ParameterizedTest
     @ValueSource(ints = {1, 2, Integer.MAX_VALUE, Integer.MAX_VALUE-1})
@@ -93,6 +93,28 @@ class ServiceTest {
     @Test
     void saveTemaInsideIf(){
         assertEquals(1, this.service.saveTema("lab3", "tema lab 2", 1, 12));
+    }
+
+    @Test
+    void saveStudentOk(){
+        assertEquals(0, this.service.saveStudent(33,"Andrea",933));
+    }
+
+    @Test
+    void saveTemaOk(){
+        assertEquals(0, this.service.saveTema("lab2", "tema lab 2", 12, 2));
+    }
+
+    @Test
+    void saveNotaOk(){
+        assertEquals(0, this.service.saveNota(30,"lab1", 10, 4, "good job"));
+    }
+
+    @Test
+    void integrationSaveAllOk(){
+        this.saveStudentOk();
+        this.saveTemaOk();
+        this.saveNotaOk();
     }
 
 }
