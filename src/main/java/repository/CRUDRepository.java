@@ -39,4 +39,6 @@ public interface CRUDRepository<ID, E> {
     E update(E entity);
 
     void deleteAll();
+
+    Integer size();
 }

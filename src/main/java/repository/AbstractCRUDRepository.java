@@ -67,4 +67,9 @@ public abstract class AbstractCRUDRepository<ID, E extends HasID<ID>> implements
     public void deleteAll() {
         entities.clear();
     }
+
+    @Override
+    public Integer size() {
+        return entities.size();
+    }
 }

@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/teodorvoicencu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_19_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LabAssiAsseProjectV01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LabAssiAsseProjectV01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/CRUDRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TemaXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaXMLRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/NotaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/NotaValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/validation/TemaValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/validation/TemaValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="399" />
+    <option name="myElementSize" value="145" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,7 +91,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30958548" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -82,16 +102,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Laborator01" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TopDownTest">
     <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabAssiAsseProjectV01" />
       <extension name="coverage">
@@ -154,20 +165,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopDownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TopDownTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ServiceTest" />
       <item itemvalue="JUnit.ServiceTest.saveTemaOutsideIf" />
       <item itemvalue="JUnit.ServiceTest.saveTemaInsideIf" />
       <item itemvalue="JUnit.TemaValidatorTest" />
+      <item itemvalue="JUnit.TopDownTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopDownTest" />
         <item itemvalue="JUnit.ServiceTest" />
         <item itemvalue="JUnit.TemaValidatorTest" />
         <item itemvalue="JUnit.ServiceTest.saveTemaInsideIf" />
         <item itemvalue="JUnit.ServiceTest.saveTemaOutsideIf" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +216,12 @@
       <workItem from="1585691813148" duration="66000" />
       <workItem from="1585691890017" duration="412000" />
       <workItem from="1585745238104" duration="5036000" />
-      <workItem from="1586955567150" duration="3088000" />
+      <workItem from="1586955567150" duration="4549000" />
+      <workItem from="1588005838104" duration="534000" />
+      <workItem from="1588580855107" duration="2147000" />
+      <workItem from="1588756425907" duration="1143000" />
+      <workItem from="1588768307163" duration="1682000" />
+      <workItem from="1589811748851" duration="6171000" />
     </task>
     <servers />
   </component>
@@ -206,66 +237,92 @@
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="100" y="123" width="2808" height="1469" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585685274213" />
-    <state x="1317" y="574" key="#com.intellij.ide.util.MemberChooser" timestamp="1585688743525">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state x="343" y="-1134" key="#com.intellij.ide.util.MemberChooser" timestamp="1589813955877">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
     <state x="1317" y="574" key="#com.intellij.ide.util.MemberChooser/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585688743525" />
+    <state x="343" y="-1134" key="#com.intellij.ide.util.MemberChooser/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589813955877" />
     <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585748671463">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="856" y="394" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748671463" />
     <state x="510" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/112.-1057.1920.1010/0.23.1792.1097@0.23.1792.1097" timestamp="1584540925121" />
-    <state width="3798" height="305" key="GridCell.Tab.0.bottom" timestamp="1586958448525">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="2966" height="428" key="GridCell.Tab.0.bottom" timestamp="1589818586802">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
+    <state width="2966" height="226" key="GridCell.Tab.0.bottom/-974.-1669.3008.1669/2034.-1669.1080.1897/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1588597322343" />
     <state width="2966" height="368" key="GridCell.Tab.0.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803582" />
     <state width="1750" height="459" key="GridCell.Tab.0.bottom/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879687" />
-    <state width="3798" height="305" key="GridCell.Tab.0.bottom/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448525" />
-    <state width="3798" height="305" key="GridCell.Tab.0.center" timestamp="1586958448525">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="2966" height="428" key="GridCell.Tab.0.bottom/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589818586802" />
+    <state width="2966" height="428" key="GridCell.Tab.0.bottom/2034.-1669.1080.1897/-974.-1669.3008.1669/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1589812176379" />
+    <state width="3798" height="305" key="GridCell.Tab.0.bottom/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586959435258" />
+    <state width="3798" height="770" key="GridCell.Tab.0.bottom/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246481" />
+    <state width="2966" height="428" key="GridCell.Tab.0.center" timestamp="1589818586801">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
+    <state width="2966" height="226" key="GridCell.Tab.0.center/-974.-1669.3008.1669/2034.-1669.1080.1897/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1588597322342" />
     <state width="2966" height="368" key="GridCell.Tab.0.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803581" />
     <state width="1750" height="459" key="GridCell.Tab.0.center/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="3798" height="305" key="GridCell.Tab.0.center/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448525" />
-    <state width="3798" height="305" key="GridCell.Tab.0.left" timestamp="1586958448524">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="2966" height="428" key="GridCell.Tab.0.center/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589818586801" />
+    <state width="2966" height="428" key="GridCell.Tab.0.center/2034.-1669.1080.1897/-974.-1669.3008.1669/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1589812176378" />
+    <state width="3798" height="305" key="GridCell.Tab.0.center/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586959435257" />
+    <state width="3798" height="770" key="GridCell.Tab.0.center/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246481" />
+    <state width="2966" height="428" key="GridCell.Tab.0.left" timestamp="1589818586800">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
+    <state width="2966" height="226" key="GridCell.Tab.0.left/-974.-1669.3008.1669/2034.-1669.1080.1897/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1588597322341" />
     <state width="2966" height="368" key="GridCell.Tab.0.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803581" />
     <state width="1750" height="459" key="GridCell.Tab.0.left/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879685" />
-    <state width="3798" height="305" key="GridCell.Tab.0.left/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448524" />
-    <state width="3798" height="305" key="GridCell.Tab.0.right" timestamp="1586958448525">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="2966" height="428" key="GridCell.Tab.0.left/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589818586800" />
+    <state width="2966" height="428" key="GridCell.Tab.0.left/2034.-1669.1080.1897/-974.-1669.3008.1669/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1589812176377" />
+    <state width="3798" height="305" key="GridCell.Tab.0.left/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586959435257" />
+    <state width="3798" height="770" key="GridCell.Tab.0.left/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246480" />
+    <state width="2966" height="428" key="GridCell.Tab.0.right" timestamp="1589818586802">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
+    <state width="2966" height="226" key="GridCell.Tab.0.right/-974.-1669.3008.1669/2034.-1669.1080.1897/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1588597322342" />
     <state width="2966" height="368" key="GridCell.Tab.0.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803581" />
     <state width="1750" height="459" key="GridCell.Tab.0.right/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584529879686" />
-    <state width="3798" height="305" key="GridCell.Tab.0.right/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958448525" />
-    <state width="3798" height="770" key="GridCell.Tab.1.bottom" timestamp="1586957043951">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="2966" height="428" key="GridCell.Tab.0.right/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589818586802" />
+    <state width="2966" height="428" key="GridCell.Tab.0.right/2034.-1669.1080.1897/-974.-1669.3008.1669/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1589812176378" />
+    <state width="3798" height="305" key="GridCell.Tab.0.right/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586959435257" />
+    <state width="3798" height="770" key="GridCell.Tab.0.right/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246481" />
+    <state width="2966" height="582" key="GridCell.Tab.1.bottom" timestamp="1589816941789">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
     <state width="2966" height="602" key="GridCell.Tab.1.bottom/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803578" />
+    <state width="2966" height="582" key="GridCell.Tab.1.bottom/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589816941789" />
     <state width="3798" height="770" key="GridCell.Tab.1.bottom/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043951" />
-    <state width="3798" height="770" key="GridCell.Tab.1.center" timestamp="1586957043951">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="3798" height="770" key="GridCell.Tab.1.bottom/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246483" />
+    <state width="2966" height="582" key="GridCell.Tab.1.center" timestamp="1589816941788">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
     <state width="2966" height="602" key="GridCell.Tab.1.center/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803578" />
+    <state width="2966" height="582" key="GridCell.Tab.1.center/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589816941788" />
     <state width="3798" height="770" key="GridCell.Tab.1.center/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043951" />
-    <state width="3798" height="770" key="GridCell.Tab.1.left" timestamp="1586957043950">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="3798" height="770" key="GridCell.Tab.1.center/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246482" />
+    <state width="2966" height="582" key="GridCell.Tab.1.left" timestamp="1589816941788">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
     <state width="2966" height="602" key="GridCell.Tab.1.left/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803577" />
+    <state width="2966" height="582" key="GridCell.Tab.1.left/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589816941788" />
     <state width="3798" height="770" key="GridCell.Tab.1.left/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043950" />
-    <state width="3798" height="770" key="GridCell.Tab.1.right" timestamp="1586957043951">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state width="3798" height="770" key="GridCell.Tab.1.left/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246482" />
+    <state width="2966" height="582" key="GridCell.Tab.1.right" timestamp="1589816941788">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
     <state width="2966" height="602" key="GridCell.Tab.1.right/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585752803578" />
+    <state width="2966" height="582" key="GridCell.Tab.1.right/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589816941788" />
     <state width="3798" height="770" key="GridCell.Tab.1.right/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586957043951" />
+    <state width="3798" height="770" key="GridCell.Tab.1.right/2889.-2137.1080.1897/-951.-2137.3840.2137/0.23.1792.1050@-951.-2137.3840.2137" timestamp="1586962246483" />
     <state x="434" y="210" key="Maven.ArtifactSearchDialog" timestamp="1584543384061">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="434" y="210" key="Maven.ArtifactSearchDialog/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543384061" />
-    <state x="-177" y="-1630" width="1818" height="808" key="SettingsEditor" timestamp="1586958163191">
-      <screen x="-951" y="-2137" width="3840" height="2090" />
+    <state x="-368" y="-1264" width="1425" height="722" key="SettingsEditor" timestamp="1588589758876">
+      <screen x="-974" y="-1669" width="3008" height="1669" />
     </state>
+    <state x="-368" y="-1264" width="1425" height="722" key="SettingsEditor/-974.-1669.3008.1669/2034.-1669.1080.1897/0.23.1792.1050@-974.-1669.3008.1669" timestamp="1588589758876" />
     <state x="606" y="428" width="1818" height="808" key="SettingsEditor/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585748707328" />
     <state x="397" y="187" key="SettingsEditor/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543190344" />
     <state x="-177" y="-1630" key="SettingsEditor/2889.-2137.1080.1897/-951.-2137.3840.2090/0.23.1792.1097@-951.-2137.3840.2090" timestamp="1586958163191" />
@@ -278,34 +335,41 @@
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="554" y="305" width="683" height="486" key="find.popup/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584518750544" />
-    <state x="942" y="393" key="search.everywhere.popup" timestamp="1585688736234">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state x="-32" y="-1309" key="search.everywhere.popup" timestamp="1589813949304">
+      <screen x="-974" y="-1669" width="3008" height="1622" />
     </state>
     <state x="942" y="393" key="search.everywhere.popup/0.23.3008.1669/0.1715.1792.1050@0.23.3008.1669" timestamp="1585688736234" />
     <state x="561" y="256" key="search.everywhere.popup/112.-1057.1920.1057/0.23.1792.1050@0.23.1792.1050" timestamp="1584543504843" />
+    <state x="-32" y="-1309" key="search.everywhere.popup/2034.-1669.1080.1897/-974.-1669.3008.1622/0.23.1792.1097@-974.-1669.3008.1622" timestamp="1589813949304" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/service/Service.java</url>
-          <line>46</line>
-          <properties class="service.Service" method="saveNota">
+          <url>file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java</url>
+          <line>18</line>
+          <properties class="validation.StudentValidator" method="validateName">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$TopDownTest.ic" NAME="TopDownTest Coverage Results" MODIFIED="1589816852487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaInsideIf.ic" NAME="ServiceTest.saveTemaInsideIf Coverage Results" MODIFIED="1585750935488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$TemaValidatorTest.ic" NAME="TemaValidatorTest Coverage Results" MODIFIED="1585752035817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$TemaValidatorTest.ic" NAME="TemaValidatorTest Coverage Results" MODIFIED="1588581122863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>validation.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest_saveTemaOutsideIf.ic" NAME="ServiceTest.saveTemaOutsideIf Coverage Results" MODIFIED="1585749552885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LabAssiAsseProjectV01$ServiceTest.ic" NAME="ServiceTest Coverage Results" MODIFIED="1589811778372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>service.*</FILTER>
     </SUITE>
   </component>

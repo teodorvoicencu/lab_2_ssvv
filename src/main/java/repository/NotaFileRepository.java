@@ -5,7 +5,7 @@ import validation.*;
 import java.io.*;
 import java.util.stream.Collectors;
 
-public class NotaFileRepository extends AbstractFileRepository<Pair<Integer, String>, Nota> {
+public class NotaFileRepository extends AbstractFileRepository<Pair<Integer, Integer>, Nota> {
 
     public NotaFileRepository(Validator<Nota> validator, String filename) {
         super(validator, filename);

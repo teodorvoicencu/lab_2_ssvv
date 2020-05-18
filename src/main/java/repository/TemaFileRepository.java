@@ -6,7 +6,7 @@ import validation.*;
 import java.io.*;
 import java.util.stream.Collectors;
 
-public class TemaFileRepository extends AbstractFileRepository<String, Tema> {
+public class TemaFileRepository extends AbstractFileRepository<Integer, Tema> {
 
     public TemaFileRepository(Validator<Tema> validator, String filename) {
         super(validator, filename);
@@ -17,7 +17,7 @@ public class TemaFileRepository extends AbstractFileRepository<String, Tema> {
         try (BufferedReader buffer = new BufferedReader(new FileReader(filename))) {
             buffer.lines().collect(Collectors.toList()).forEach(line -> {
                 String[] result = line.split("#");
-                Tema tema = new Tema(result[0], result[1], Integer.parseInt(result[2]), Integer.parseInt(result[3]));
+                Tema tema = new Tema(Integer.parseInt(result[0]), result[1], Integer.parseInt(result[2]), Integer.parseInt(result[3]));
                 try {
                     super.save(tema);
                 } catch (ValidationException ve) {

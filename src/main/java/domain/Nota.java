@@ -1,12 +1,12 @@
 package domain;
 
-public class Nota implements HasID<Pair<Integer, String>> {
-    Pair<Integer, String> idNota;
-    private double nota;
-    private int saptamanaPredare;
+public class Nota implements HasID<Pair<Integer, Integer>> {
+    Pair<Integer, Integer> idNota;
+    private Double nota;
+    private Integer saptamanaPredare;
     private String feedback;
 
-    public Nota(Pair<Integer, String> idNota, double nota, int saptamanaPredare, String feedback) {
+    public Nota(Pair<Integer, Integer> idNota, double nota, int saptamanaPredare, String feedback) {
         this.idNota = idNota;
         this.nota = nota;
         this.saptamanaPredare = saptamanaPredare;
@@ -14,16 +14,16 @@ public class Nota implements HasID<Pair<Integer, String>> {
     }
 
     @Override
-    public Pair<Integer, String> getID() { return idNota; }
+    public Pair<Integer, Integer> getID() { return idNota; }
 
     @Override
-    public void setID(Pair<Integer, String> idNota) { this.idNota = idNota; }
+    public void setID(Pair<Integer, Integer> idNota) { this.idNota = idNota; }
 
-    public double getNota() { return nota; }
+    public Double getNota() { return nota; }
 
     public void setNota(double nota) { this.nota = nota; }
 
-    public int getSaptamanaPredare() { return saptamanaPredare; }
+    public Integer getSaptamanaPredare() { return saptamanaPredare; }
 
     public void setSaptamanaPredare(int saptamanaPredare) { this.saptamanaPredare = saptamanaPredare; }
 

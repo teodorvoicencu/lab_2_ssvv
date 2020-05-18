@@ -34,7 +34,7 @@ class ServiceTest {
         this.studentsRepository.deleteAll();
         this.temaRepository.deleteAll();
         studentsRepository.save(new Student(30, "Teodor", 937));
-        temaRepository.save(new Tema("lab1","tema lab 1", 14, 1 ));
+        temaRepository.save(new Tema(11,"tema lab 1", 14, 1 ));
     }
 
     @ParameterizedTest
@@ -87,12 +87,12 @@ class ServiceTest {
 
     @Test
     void saveTemaOutsideIf(){
-        assertEquals(0, this.service.saveTema("lab2", "tema lab 2", 12, 2));
+        assertEquals(0, this.service.saveTema(11, "tema lab 2", 12, 2));
     }
 
     @Test
     void saveTemaInsideIf(){
-        assertEquals(1, this.service.saveTema("lab3", "tema lab 2", 1, 12));
+        assertEquals(1, this.service.saveTema(11, "tema lab 2", 1, 12));
     }
 
     @Test
@@ -102,12 +102,12 @@ class ServiceTest {
 
     @Test
     void saveTemaOk(){
-        assertEquals(0, this.service.saveTema("lab2", "tema lab 2", 12, 2));
+        assertEquals(0, this.service.saveTema(11, "tema lab 2", 12, 2));
     }
 
     @Test
     void saveNotaOk(){
-        assertEquals(0, this.service.saveNota(30,"lab1", 10, 4, "good job"));
+        assertEquals(0, this.service.saveNota(30,11, 10, 4, "good job"));
     }
 
     @Test
@@ -117,4 +117,9 @@ class ServiceTest {
         this.saveNotaOk();
     }
 
+    @Test
+    void integrationAddAssignmentOk(){
+        this.saveStudentOk();
+        this.saveTemaOk();
+    }
 }

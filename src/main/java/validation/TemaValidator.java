@@ -1,18 +1,35 @@
 package validation;
 import domain.Tema;
+import org.jetbrains.annotations.NotNull;
 
 public class TemaValidator implements Validator<Tema> {
     public void validate(Tema tema) throws ValidationException {
-        if (tema.getID() == null || tema.getID().equals("")) {
+        this.validateId(tema.getID());
+        this.validateDescription(tema.getDescriere());
+        this.validateDeadline(tema.getDeadline(), tema.getStartline());
+        this.validateStartline(tema.getStartline(), tema.getDeadline());
+    }
+
+    public void validateId(@NotNull Integer id){
+        if (id < 1) {
             throw new ValidationException("ID invalid! \n");
         }
-        if (tema.getDescriere() == null || tema.getDescriere().equals("")) {
+    }
+
+    public void validateDescription(@NotNull String description){
+        if (description.equals("")) {
             throw new ValidationException("Descriere invalida! \n");
         }
-        if (tema.getDeadline() < 1 || tema.getDeadline() > 14 || tema.getDeadline() < tema.getStartline()) {
+    }
+
+    public void validateDeadline(@NotNull Integer deadline, @NotNull Integer startline){
+        if (deadline < 1 || deadline > 14 || deadline < startline) {
             throw new ValidationException("Deadline invalid! \n");
         }
-        if (tema.getStartline() < 1 || tema.getStartline() > 14 || tema.getStartline() > tema.getDeadline()) {
+    }
+
+    public void validateStartline(@NotNull Integer startline, @NotNull Integer deadline){
+        if (startline < 1 || startline > 14 || startline > deadline) {
             throw new ValidationException("Data de primire invalida! \n");
         }
     }

@@ -3,27 +3,17 @@ package repository;
 import domain.Nota;
 import domain.Pair;
 import domain.Student;
-import domain.Tema;
 import validation.StudentValidator;
 import validation.TemaValidator;
-import validation.ValidationException;
 import validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.*;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class NotaXMLRepository extends AbstractXMLRepository<Pair<Integer, String>, Nota> {
+public class NotaXMLRepository extends AbstractXMLRepository<Pair<Integer, Integer>, Nota> {
 
     public NotaXMLRepository(Validator<Nota> validator, String XMLfilename) {
         super(validator, XMLfilename);
@@ -33,7 +23,7 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<Integer, Strin
     protected Element getElementFromEntity(Nota nota, Document XMLdocument) {
         Element element = XMLdocument.createElement("nota");
         element.setAttribute("IDStudent", nota.getID().getObject1().toString());
-        element.setAttribute("IDTema", nota.getID().getObject2());
+        element.setAttribute("IDTema", nota.getID().getObject2().toString());
 
         element.appendChild(createElement(XMLdocument, "Nota", String.valueOf(nota.getNota())));
         element.appendChild(createElement(XMLdocument, "SaptamanaPredare", String.valueOf(nota.getSaptamanaPredare())));
@@ -44,7 +34,7 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<Integer, Strin
 
     protected Nota getEntityFromNode(Element node) {
         Integer IDStudent = Integer.parseInt(node.getAttributeNode("IDStudent").getValue());
-        String IDTema= node.getAttributeNode("IDTema").getValue();
+        Integer IDTema= Integer.parseInt(node.getAttributeNode("IDTema").getValue());
         double nota = Double.parseDouble(node.getElementsByTagName("Nota").item(0).getTextContent());
         int saptamanaPredare = Integer.parseInt(node.getElementsByTagName("SaptamanaPredare").item(0).getTextContent());
         String feedback = node.getElementsByTagName("Feedback").item(0).getTextContent();
@@ -79,60 +69,3 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<Integer, Strin
         }
     }
 }
-//    public void createFile(Nota notaObj) {
-//        String idStudent = notaObj.getID().getObject1();
-//        StudentValidator sval = new StudentValidator();
-//        TemaValidator tval = new TemaValidator();
-//        StudentXMLRepository srepo = new StudentXMLRepository(sval, "studenti.xml");
-//        TemaXMLRepository trepo = new TemaXMLRepository(tval, "teme.xml");
-//
-//        Student student = srepo.findOne(idStudent);
-//        try {
-//            Document XMLdocument = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
-//            Element root = XMLdocument.createElement("NoteStudent");
-//            XMLdocument.appendChild(root);
-//
-//            super.findAll().forEach(nota -> {
-//                if (nota.getID().getObject1().equals(idStudent)) {
-//                    try {
-//                        Document XMLstudent = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
-//                        Element element = XMLstudent.createElement("nota");
-//
-//                        Document XMLdocument2 = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(trepo.XMLfilename);
-//                        Node n = XMLdocument2.getFirstChild();
-//                        Node temaNode = XMLstudent.importNode(XMLdocument2, true);
-//                        Tema t = trepo.getEntityFromNode((Element) temaNode);
-//
-//                        element.appendChild(createElement(XMLstudent, "Tema", t.getID()));
-//                        element.appendChild(createElement(XMLstudent, "Nota", String.valueOf(nota.getNota())));
-//                        element.appendChild(createElement(XMLstudent, "SaptamanaPredare", String.valueOf(nota.getSaptamanaPredare())));
-//                        element.appendChild(createElement(XMLstudent, "Deadline", String.valueOf(t.getDeadline())));
-//                        element.appendChild(createElement(XMLstudent, "Feedback", nota.getFeedback()));
-//
-//                        root.appendChild(element);
-//
-//                    } catch (ParserConfigurationException e) {
-//                        e.printStackTrace();
-//                    } catch (SAXException e) {
-//                        e.printStackTrace();
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//
-//                }
-//            });
-//
-//            Transformer XMLtransformer = TransformerFactory.newInstance().newTransformer();
-//            XMLtransformer.setOutputProperty(OutputKeys.INDENT, "yes");
-//            XMLtransformer.transform(new DOMSource(XMLdocument), new StreamResult(XMLfilename));
-//        }
-//        catch(ParserConfigurationException pce) {
-//            pce.printStackTrace();
-//        }
-//        catch(TransformerConfigurationException tce) {
-//            tce.printStackTrace();
-//        }
-//        catch(TransformerException te) {
-//            te.printStackTrace();
-//        }
-//    }}

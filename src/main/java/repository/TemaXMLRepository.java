@@ -5,7 +5,7 @@ import validation.Validator;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-public class TemaXMLRepository extends AbstractXMLRepository<String, Tema> {
+public class TemaXMLRepository extends AbstractXMLRepository<Integer, Tema> {
 
     public TemaXMLRepository(Validator<Tema> validator, String XMLfilename) {
         super(validator, XMLfilename);
@@ -14,7 +14,7 @@ public class TemaXMLRepository extends AbstractXMLRepository<String, Tema> {
 
     protected Element getElementFromEntity(Tema tema, Document XMLdocument) {
         Element element = XMLdocument.createElement("tema");
-        element.setAttribute("ID", tema.getID());
+        element.setAttribute("ID", tema.getID().toString());
 
         element.appendChild(createElement(XMLdocument, "Descriere", tema.getDescriere()));
         element.appendChild(createElement(XMLdocument, "Deadline", String.valueOf(tema.getDeadline())));
@@ -24,7 +24,7 @@ public class TemaXMLRepository extends AbstractXMLRepository<String, Tema> {
     }
 
     protected Tema getEntityFromNode(Element node) {
-        String ID = node.getAttributeNode("ID").getValue();
+        Integer ID = Integer.parseInt(node.getAttributeNode("ID").getValue());
         String descriere = node.getElementsByTagName("Descriere").item(0).getTextContent();
         int deadline = Integer.parseInt(node.getElementsByTagName("Deadline").item(0).getTextContent());
         int startline = Integer.parseInt(node.getElementsByTagName("Startline").item(0).getTextContent());

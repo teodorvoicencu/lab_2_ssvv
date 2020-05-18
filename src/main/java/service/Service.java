@@ -18,11 +18,17 @@ public class Service {
         this.notaXmlRepo = notaXmlRepo;
     }
 
-    public Iterable<Student> findAllStudents() { return studentXmlRepo.findAll(); }
+    public Iterable<Student> findAllStudents() {
+        return studentXmlRepo.findAll();
+    }
 
-    public Iterable<Tema> findAllTeme() { return temaXmlRepo.findAll(); }
+    public Iterable<Tema> findAllTeme() {
+        return temaXmlRepo.findAll();
+    }
 
-    public Iterable<Nota> findAllNote() { return notaXmlRepo.findAll(); }
+    public Iterable<Nota> findAllNote() {
+        return notaXmlRepo.findAll();
+    }
 
     public int saveStudent(Integer id, String nume, Integer grupa) {
         Student student = new Student(id, nume, grupa);
@@ -34,7 +40,7 @@ public class Service {
         return 0;
     }
 
-    public int saveTema(String id, String descriere, int deadline, int startline) {
+    public int saveTema(Integer id, String descriere, int deadline, int startline) {
         Tema tema = new Tema(id, descriere, deadline, startline);
         Tema result = temaXmlRepo.save(tema);
 
@@ -44,17 +50,18 @@ public class Service {
         return 0;
     }
 
-    public int saveNota(Integer idStudent, String idTema, double valNota, int predata, String feedback) {
+    public int saveNota(Integer idStudent, Integer idTema, double valNota, int predata, String feedback) {
         if (studentXmlRepo.findOne(idStudent) == null || temaXmlRepo.findOne(idTema) == null) {
             return -1;
-        }
-        else {
+        } else {
             int deadline = temaXmlRepo.findOne(idTema).getDeadline();
 
-            if (predata - deadline > 2) {
-                valNota =  1;
-            } else {
-                valNota =  valNota - 2.5 * (predata - deadline);
+            if (deadline < predata) {
+                if (predata - deadline > 2) {
+                    valNota = 1;
+                } else {
+                    valNota = valNota - 2.5 * (predata - deadline);
+                }
             }
             Nota nota = new Nota(new Pair(idStudent, idTema), valNota, predata, feedback);
             Nota result = notaXmlRepo.save(nota);
@@ -75,7 +82,7 @@ public class Service {
         return 1;
     }
 
-    public int deleteTema(String id) {
+    public int deleteTema(Integer id) {
         Tema result = temaXmlRepo.delete(id);
 
         if (result == null) {
@@ -94,7 +101,7 @@ public class Service {
         return 1;
     }
 
-    public int updateTema(String id, String descriereNoua, int deadlineNou, int startlineNou) {
+    public int updateTema(Integer id, String descriereNoua, int deadlineNou, int startlineNou) {
         Tema temaNoua = new Tema(id, descriereNoua, deadlineNou, startlineNou);
         Tema result = temaXmlRepo.update(temaNoua);
 
@@ -104,7 +111,7 @@ public class Service {
         return 1;
     }
 
-    public int extendDeadline(String id, int noWeeks) {
+    public int extendDeadline(Integer id, int noWeeks) {
         Tema tema = temaXmlRepo.findOne(id);
 
         if (tema != null) {
@@ -126,7 +133,7 @@ public class Service {
         return 0;
     }
 
-    public void createStudentFile(String idStudent, String idTema) {
+    public void createStudentFile(String idStudent, Integer idTema) {
         Nota nota = notaXmlRepo.findOne(new Pair(idStudent, idTema));
 
         notaXmlRepo.createFile(nota);

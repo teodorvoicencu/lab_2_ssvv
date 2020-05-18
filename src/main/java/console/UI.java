@@ -73,7 +73,7 @@ public class UI {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduceti ID-ul temei: ");
-        String id = scanner.nextLine();
+        Integer id = scanner.nextInt();
 
         System.out.println("Introduceti o descriere a temei: ");
         String descriere = scanner.nextLine();
@@ -99,7 +99,7 @@ public class UI {
         Integer idStudent = scanner.nextInt();
 
         System.out.println("Introduceti ID-ul temei: ");
-        String idTema = scanner.nextLine();
+        Integer idTema = scanner.nextInt();
 
         System.out.println("Introduceti valoarea notei: ");
         String linie = scanner.nextLine();
@@ -143,7 +143,7 @@ public class UI {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduceti ID-ul temei: ");
-        String id = scanner.nextLine();
+        Integer id = scanner.nextInt();
 
         if (service.deleteTema(id) != 0) {
             System.out.println("Tema stearsa cu succes! \n");
@@ -177,7 +177,7 @@ public class UI {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduceti ID-ul temei: ");
-        String id = scanner.nextLine();
+        Integer id = scanner.nextInt();
 
         System.out.println("Introduceti numarul de saptamani adaugate la deadline: ");
         int nrWeeks = scanner.nextInt();
